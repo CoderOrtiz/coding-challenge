@@ -46,7 +46,7 @@ const game = {
   const [players1, players2] = game.players;
   console.log(players1, players2);
 
-  // Using the Rest Operator to Make the First Player in Each Player Array the Goal Keeper(gk) and Designating the Rest to Being Field Players
+  // Using the Rest Perameters to Make the First Player in Each Player Array the Goal Keeper(gk) and Designating the Rest to Being Field Players
   const [gk1, ...fieldPlayers1] = players1;
   const [gk2, ...fieldPlayers2] = players2;
   console.log(gk1, fieldPlayers1, gk2, fieldPlayers2);
